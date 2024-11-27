@@ -1,0 +1,82 @@
+body {
+    background-color: #232a44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2f3c56;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+  
+.advice-card .advice-number {
+    color: #92f896;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+.advice-card .advice-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  
+.advice-card .divider{
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto 20px;
+}
+  
+.advice-card .button {
+    background-color: #92f896;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dividerImg{
+    margin-bottom: 10px;
+}
+
+.btnNewAdvice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #92f896;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -1.5rem;
+    cursor: pointer;
+}
+
+.btnContentImg{
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
